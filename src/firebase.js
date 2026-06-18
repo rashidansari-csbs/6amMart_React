@@ -8,14 +8,14 @@ import {
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: "",
+  apiKey: "AIzaSyBrXYMftn590aOGO9_ffDjixHUxFR_E9-A",
+  authDomain: "abhikshaamart-4735c.firebaseapp.com",
+  projectId: "abhikshaamart-4735c",
+  storageBucket: "abhikshaamart-4735c.firebasestorage.app",
+  messagingSenderId: "592207059117",
+  appId: "1:592207059117:web:f6a5def8c1191afc464e24",
+  measurementId: "G-KTQGTHKNW6"
 };
-
 const firebaseApp = !getApps().length
   ? initializeApp(firebaseConfig)
   : getApp();
